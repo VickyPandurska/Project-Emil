@@ -1,0 +1,142 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	max-width: 100%;
+	max-height: 100%;
+	font-family: "Arial", sans-serif;
+	font-family: "Times New Roman", serif;
+	font-size: 20px;
+}
+main {
+	max-height: 80%;
+	max-width: 80%;
+	background-color: #ddd;
+	margin-left: 10%;
+	padding: 1%;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+	margin: 5px 0px;
+	border-right: 1.5px solid #D1D1D1;
+  	display: inline-block;
+	list-style-type: none;
+	font-size: 20px;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #ddd;
+    color: #000;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    
+}
+
+.dropdown-content a {
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#button {
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+    border: 1.5px solid #555;
+  
+}
+#places {
+	border: 1.5px solid #555;
+	border-radius: 5px;
+	width: 8%;
+}
+#button:hover {
+    background-color: #000;
+    color: #fff;
+}
+form input {
+	border: 1.5px solid #555;
+	border-radius: 5px;
+	padding: 0.5%;
+}
+
+#opis {
+	border: 1.5px solid #555;
+	border-radius: 5px;
+}
+.edin {
+	width: 25%;
+}
+#Ime, #tel, #email, #places, #da, #ne, #dve, #opis, .edin, label {
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+div.photo {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 350px;
+}
+
+div.photo img {
+    width: 100%;
+    height: auto;
+}
+#photo {
+  overflow: right;
+ 
+}
+pre {
+	font-family: "Times New Roman", serif;
+	font-size: 20px;
+}
+#Office {
+	overflow: all;}
+footer {
+	position: absolute;
+	width: 80%;
+	height: 20%;
+}
+footer p {
+	margin-left: 55%;
+	margin-top: 5%;
+}

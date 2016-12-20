@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="Emil.css">
+	<title> Заявка </title>
+</head>
+<body>
+<nav>
+	<ul>
+		<li> <a href="Home.html" id="home"> Начало </a></li><li> 
+		<a href="About_us.html"> За нас </a> </li><li class="dropdown">
+    <a href="Products.html" class="dropbtn"> Продукти </a>
+    <div class="dropdown-content">
+      <a href="Bedroom.html"> Спалня </a>
+      <a href="Kitchen.html"> Кухня </a>
+      <a href="Entrance.html"> Антре </a>
+      <a href="Wardrobe.html"> Гардероби </a>
+      <a href="Office.html"> Офис </a>
+    </div>
+  </li><li>
+  <a href="Order.html"> Заявка </a></li><li>
+  <a href="Contacts.html"> Контакти </a> </li>
+	</ul>
+</nav>
+<main>
+	<form action="send" method="post" > 
+	<h3> Запитване за мебели: </h3>
+		<div><p><label for="Ime"> Вашите имена* </label></p>
+		<p><input type="text" name="msg" id="Ime" required="" class="edin" /></p>
+		<p><label for="tel"> Телефон* </label></p>
+		<p><input type="text" name="msg" id="tel" required="" class="edin"/></p>
+		<p> <label for="email"> E-mail*   </label></p>
+		<p>	<input type="text" name="msg" id="email" required="" class="edin"/></p>
+		<p> Населени места <select name="msg" id="places"  required="" >
+			<option value="">  Враца </option>
+			<option value=""> Мездра </option>
+			<option value=""> Монтана </option>
+			<option value=""> Козлодуй </option>
+			<option value=""> София </option>
+			<option value=""> др. </option>
+		</select></p>
+		<p  class="edin"> За първи път ли ще използвате услугите ни? </p>
+		<p><label for="da"> Да </label>
+			<input type="radio" name="vid" value="Да" id="da"/>
+			<label for="ne"> Не </label>
+			<input type="radio" name="vid" value="Не" id="ne"/>
+		</p>
+		<p class="edin"> От къде научихте за нас?</p>
+		<label for="friends"> От доволни клиенти</label>
+		<p>	<input type="checkbox" name="answer" id="friends"/></p>
+		<label for="internet">От интернет </label>
+		<p>	<input type="checkbox" name="answer" id="internet"/>
+		</p>
+		 <p class="edin"><label for="opis"> Описание* </label></p>
+		<p> <textarea name="msg" id="opis"    rows="8" cols="50" required="" ></textarea>	</p>
+	<input type="submit" name="register" id="button" value="Изпрати"/>
+	</div></form>
+</main>
+<footer> <p> &amp;copy (2002-2016) </p>
+</footer>
+</body>
+</html>
